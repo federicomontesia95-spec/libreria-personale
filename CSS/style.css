@@ -22,6 +22,11 @@ body {
     gap: 20px;
 }
 
+/* Impostiamo la visualizzazione ad una sola colonna su schermi piccoli per migliorare la leggibilità */
+@media (max-width: 600px) {
+    .griglia-libri {grid-template-columns: 1fr;}
+}
+
 /* Stili specifici per i blocchi di article*/
 
 article {
