@@ -16,13 +16,18 @@ body {
 
 }
 
+.griglia-libri {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonne uguali */
+    gap: 20px;
+}
+
 /* Stili specifici per i blocchi di article*/
 
 article {
 border: 1px solid #000;
 padding: 20px;
 border-radius: 8px;
-margin-bottom: 40px;
 background-color: bisque;
 }
 
